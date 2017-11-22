@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+#display {
+    width: 100%;
+}
+
+.col {
+    cursor: pointer;
+    background-color: #b2ebf2;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.col:hover,
+#dot:hover, .funct:hover {
+    background-color: cyan;
+}
+
+.col:active,
+#dot:active, .funct:active {
+    background-color: rgba(0, 255, 255, 0.746);
+    font-size: 3.5em;
+}
+
+#dot, .funct {
+    background-color: #2196f3
+}
+
+#display:active {
+  font-size: 3em;
+}

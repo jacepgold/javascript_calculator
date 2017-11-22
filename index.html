@@ -2,15 +2,45 @@
 <html lang="en">
   <head>
     <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <h1>JavaScript Calculator</h1>
     </header>
-    <p>
-      Calculator goes here.
-    </p>
+    <div id="container">
+      <div class="row">
+        <span id="display" class="col blue lighten-3">
+          Display
+        </span>
+      </div>
+      <div class="row">
+        <span id="seven" class="col">7</span>
+        <span id="eight" class="col">8</span>
+        <span id="nine" class="col">9</span>
+        <span id="dive" class="col funct">/</span>
+      </div>
+      <div class="row">
+        <span id="four" class="col">4</span>
+        <span id="five" class="col">5</span>
+        <span id="six" class="col">6</span>
+        <span id="multiply" class="col funct">x</span>
+      </div>
+      <div class="row">
+        <span id="one" class="col">1</span>
+        <span id="two" class="col">2</span>
+        <span id="three" class="col">3</span>
+        <span id="subtract" class="col funct">-</span>
+      </div>
+      <div class="row">
+        <span id="dot" class="col">.</span>
+        <span id="zero" class="col">0</span>
+        <span id="equals" class="col funct">=</span>
+        <span id="plus" class="col funct">+</span>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
